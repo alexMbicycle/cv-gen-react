@@ -1,4 +1,4 @@
-# Mbicycle react starter kit
+# Mbicycle CV Generator application
 
 ![enter image description here](https://react-query.tanstack.com/_next/static/images/emblem-light-628080660fddb35787ff6c77e97ca43e.svg)**|With using react-query|**
 
