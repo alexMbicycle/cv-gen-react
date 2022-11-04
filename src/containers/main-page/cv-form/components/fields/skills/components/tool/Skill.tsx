@@ -9,7 +9,9 @@ import { Skill as SkillType } from 'common/models/User';
 
 import TextFieldOutlined from 'common/components/text-field-outlined';
 import { AddCircleIconStyled } from 'common/components/add-pattern/styled';
-import { Text, ToolInputText } from '../../utils/constants';
+import {
+  Text, ToolInputText, SkillInputText,
+} from '../../utils/constants';
 
 import {
   AddToolButtonStyled, DividerStyled, ToolContainerStyled, ToolsContainerStyled,
@@ -51,7 +53,7 @@ const Skill = function ({ skill }: SkillProps): JSX.Element {
         <Grid item container xs={12} wrap="nowrap" gap={4}>
           <TextFieldOutlined
             defaultValue={skill.name}
-            label={ToolInputText.Label}
+            label={SkillInputText.Label}
             name={ToolInputText.Name}
             onChange={handleSkillNameChange}
           />

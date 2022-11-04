@@ -12,8 +12,13 @@ export const enum CategoryInputText {
   Name = 'titleCategory'
 }
 
+export const enum SkillInputText {
+  Label = 'Skill',
+  Name = 'name'
+}
+
 export const enum ToolInputText {
-  Label = 'Skill/tool',
+  Label = 'Tool',
   Name = 'name'
 }
 
